@@ -4,16 +4,25 @@
 
 /*no-repeat center center fixed*/
 body{
-	background-image: url("http://www.planwallpaper.com/static/images/magic-of-blue-universe-images.jpg");
-/*	background-size: 100% 100%;*/
-   	background-repeat: no-repeat;
+
+    background: url(http://i.imgur.com/RRUe0Mo.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
-    -moz-background-size: cover;
+ 	-moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  /*  text-align: center;*/
- 
-    margin: auto;
-    background-position: relative;
 
+}
+
+li{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#size{
+	width:300;
+	height: 300;
 }
