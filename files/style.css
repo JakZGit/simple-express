@@ -1,0 +1,19 @@
+#hello{
+	color: green;
+}
+
+/*no-repeat center center fixed*/
+body{
+	background-image: url("http://www.planwallpaper.com/static/images/magic-of-blue-universe-images.jpg");
+/*	background-size: 100% 100%;*/
+   	background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  /*  text-align: center;*/
+ 
+    margin: auto;
+    background-position: relative;
+
+}
